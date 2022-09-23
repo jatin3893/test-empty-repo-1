@@ -1,14 +1,15 @@
 {
 	"info": {
-		"_postman_id": "5f97fe2c-79c6-410a-938f-617d69fc3c7d",
+		"_postman_id": "6b2d8939-81f3-42f6-b038-130528fdc883",
 		"name": "Rutvik Coll 4",
 		"description": "Buy or rent spacecrafts",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "869033-6b2d8939-81f3-42f6-b038-130528fdc883"
 	},
 	"item": [
 		{
 			"name": "Read a spacecraft",
-			"id": "a6cd01c2-a0b8-4121-a8e0-cf1fbbb5cc42",
+			"id": "51646ccb-641a-41a4-b5ed-fdbd696ce3b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -31,7 +32,6 @@
 					],
 					"variable": [
 						{
-							"id": "17bc9004-0e00-496d-adfc-d24f9531cc6b",
 							"key": "spacecraftId",
 							"value": "ipsum sed occaecat non",
 							"description": "(Required) The unique identifier of the spacecraft"
@@ -41,15 +41,14 @@
 			},
 			"response": [
 				{
-					"id": "db90f841-0eb5-45f5-bea2-2ae706ae7f53",
+					"id": "ad0cf922-204b-4780-933e-d45f68b87399",
 					"name": "The spacecraft corresponding to the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
+								"key": "Accept",
+								"value": "application/json"
 							}
 						],
 						"url": {
@@ -80,19 +79,17 @@
 						}
 					],
 					"cookie": [],
-					"responseTime": null,
 					"body": "{\n  \"id\": \"<string>\",\n  \"name\": \"enim officia\",\n  \"type\": \"station\",\n  \"description\": \"irure \"\n}"
 				},
 				{
-					"id": "748fbb67-e938-435c-9177-43f46d14b0ff",
+					"id": "477d4b29-ad42-4840-ae13-66552f2a4731",
 					"name": "No spacecraft found for the provided `spacecraftId`",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
+								"key": "Accept",
+								"value": "application/json"
 							}
 						],
 						"url": {
@@ -123,19 +120,17 @@
 						}
 					],
 					"cookie": [],
-					"responseTime": null,
 					"body": "{\n  \"message\": \"cupidatat incididunt commodo nulla\"\n}"
 				},
 				{
-					"id": "2e87fd08-bda5-411b-964c-eed7724f42e9",
+					"id": "d478f11d-c339-4385-ab84-671e6728b891",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
 						"header": [
 							{
-								"description": "Added as a part of security scheme: apikey",
-								"key": "X-Api-Key",
-								"value": "<API Key>"
+								"key": "Accept",
+								"value": "application/json"
 							}
 						],
 						"url": {
@@ -166,7 +161,6 @@
 						}
 					],
 					"cookie": [],
-					"responseTime": null,
 					"body": "{\n  \"message\": \"cupidatat incididunt commodo nulla\"\n}"
 				}
 			]
