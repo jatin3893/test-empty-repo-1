@@ -1,4 +1,4 @@
-id = b43769b2-b5af-4334-ab63-3a2ea8d6660d
+id = e32fd92b-0dc5-4e1a-9e2d-4254c3a96d03
 
 [relations]
 
@@ -9,5 +9,8 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"shrey.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = shrey.yaml
