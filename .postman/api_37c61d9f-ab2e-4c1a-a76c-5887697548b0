@@ -9,12 +9,15 @@ id = 37c61d9f-ab2e-4c1a-a76c-5887697548b0
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"20691419-3e7723e5-724d-4f84-a20b-7599c02f40b4","path":"Coll Success Spaces.json","metaData":{}}
+files[] = {"id":"20691419-29d69173-2c53-419d-9a23-8469b9651cdf","path":"empty-coll-1-request.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"shrey.yaml","metaData":{}}
+files[] = {"path":"index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index.yaml
