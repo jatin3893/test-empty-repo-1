@@ -1,1 +1,4 @@
 signingkeys.py
+private.pgp
+public.pgp
+*.asc
